@@ -1,0 +1,19 @@
+@use "./styles/mixins" as *;
+@import "./styles/variables";
+@import "./styles/components/Button.scss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.circle {
+  @include circleWithArguments(100px, 100px, #ec0fc7);
+  @include centeredContent;
+}
+
+.variableText {
+  color: $my-fav-color;
+}

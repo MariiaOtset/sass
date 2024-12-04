@@ -1,0 +1,12 @@
+@mixin circleWithArguments($width, $height, $color) {
+  border-radius: 50%;
+  width: $width;
+  height: $height;
+  background-color: $color;
+}
+
+@mixin centeredContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

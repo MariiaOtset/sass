@@ -1,0 +1,20 @@
+.mixinButton {
+  @include centeredContent;
+  margin: 12px;
+}
+
+.mixinButtonFirst {
+  color: $first-button-color;
+}
+
+.mixinButtonSecond {
+  background-color: $second-button-background-color;
+}
+
+.mixinButtonThird {
+  font-size: 20px;
+}
+
+.buttonsWrapper {
+  display: flex;
+}
